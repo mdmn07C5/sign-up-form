@@ -69,14 +69,21 @@ body {
 main {
     display: flex;
     flex-direction: column;
-    padding: 30px;
+    > * {
+        padding-left: 50px;
+    }
 
     #form {
-
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        box-shadow: 1px 1px 5px rgba(0, 0 ,0, 0.5);
+        
         ul {
             display: flex;
             flex-wrap: wrap;
-            gap: 10px;
+            gap: 25px;
+            padding: 0;
         }
 
         li {
@@ -87,9 +94,14 @@ main {
             min-width: 200px;
         }
 
+        label {
+            text-transform: uppercase;
+        }
+
         input {
             border: solid 2px #E5E7EB;
             border-radius: 5px;
+            padding: 0.5rem;
         }
 
         input:focus {
