@@ -79,7 +79,7 @@ main {
         display: flex;
         flex-direction: column;
         width: 100%;
-        box-shadow: 1px 1px 5px rgba(0, 0 ,0, 0.3);
+        box-shadow: 1px 1px 20px rgba(0, 0 ,0, 0.3);
         
         ul {
             display: flex;
@@ -112,5 +112,6 @@ main {
             box-shadow: 1px 1px 5px rgba(0, 0 ,0, 0.5);
             outline: none;
         }
+        
     }
 }

@@ -45,17 +45,18 @@
                     </li>
                     <li>
                         <label for="password">Password</label>
-                        <input type="password" id="password" minlength="8" class="" required>
+                        <input type="password" id="password" minlength="8" class="error" required>
+                        <div id="warning-text"></div>
                     </li>
                     <li>
                         <label for="password_confirm">Confirm Password</label>
-                        <input type="password" id="password_confirm" minlength="8" class="" required>
+                        <input type="password" id="password_confirm" minlength="8" class="error" required>
                     </li>
                 </ul>
             </form>
         </div>
         <div id="footer">
-            <button type="submit" form="sign-up-form">Create Account</button>
+            <button type="submit" id="submit-button" form="sign-up-form">Create Account</button>
             <p>Already have an account? <a href="#">Log in</a></p>
         </div>
     </main>
