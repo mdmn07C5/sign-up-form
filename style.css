@@ -4,7 +4,6 @@
 }
 
 #sidebar  {
-    position: absolute;
     > img {
         height: 100vh;
     }
