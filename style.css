@@ -6,6 +6,7 @@
 body {
     display: flex;
     font-family: system-ui, sans-serif;
+    margin: 0;
 }
 
 #sidebar  {
@@ -71,13 +72,14 @@ main {
     flex-direction: column;
     > * {
         padding-left: 50px;
+        margin: 10px 0px;
     }
 
     #form {
         display: flex;
         flex-direction: column;
         width: 100%;
-        box-shadow: 1px 1px 5px rgba(0, 0 ,0, 0.5);
+        box-shadow: 1px 1px 5px rgba(0, 0 ,0, 0.3);
         
         ul {
             display: flex;
