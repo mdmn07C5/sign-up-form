@@ -98,6 +98,7 @@ main {
 
         label {
             text-transform: uppercase;
+            letter-spacing: .1em;
         }
 
         input {
