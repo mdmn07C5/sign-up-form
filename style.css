@@ -3,6 +3,13 @@
     src: url(./assets/Norse-Bold.otf);
 }
 
-#sidebar h1 {
-    font-family: 'Norse Bold';
+#sidebar  {
+    position: absolute;
+    > img {
+        height: 100vh;
+    }
+
+    h1 {
+        font-family: 'Norse Bold';
+    }
 }
