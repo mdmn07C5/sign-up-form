@@ -16,6 +16,7 @@ body {
     height: 100vh;
     /* for fonts etc */
     color: white;
+    min-height: 100vh;
 
     #banner {
         /* center logo and text */
@@ -60,5 +61,41 @@ body {
 
     a, a:visited {
         color: white;
+    }
+}
+
+/* main content */
+
+main {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+
+    #form {
+
+        ul {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        li {
+            display: flex;
+            flex-direction: column;
+            list-style: none;
+            width: 40%;
+            min-width: 200px;
+        }
+
+        input {
+            border: solid 2px #E5E7EB;
+            border-radius: 5px;
+        }
+
+        input:focus {
+            border-color: blue;
+            box-shadow: 1px 1px 5px rgba(0, 0 ,0, 0.5);
+            outline: none;
+        }
     }
 }
