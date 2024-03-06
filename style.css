@@ -3,9 +3,15 @@
     src: url(./assets/Norse-Bold.otf);
 }
 
+body {
+    display: flex;
+}
+
 #sidebar  {
+    position: relative;
+    height: 100vh;
     > img {
-        height: 100vh;
+        max-height: 100%;
     }
 
     h1 {
