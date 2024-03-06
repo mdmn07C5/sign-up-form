@@ -8,13 +8,42 @@ body {
 }
 
 #sidebar  {
+    /* custom properties */
+    ---banner-height: 10rem;
+
     position: relative;
     height: 100vh;
+
+    #banner {
+        /* center logo and text */
+        display: flex;
+        align-items: center;     
+        justify-content: center;
+        /* position banner to just about top mid of sidebar */
+        position: absolute;
+        top: 20%;
+        /* span entirety of the container */
+        width: 100%;
+        
+        height: var(---banner-height);
+        background: black;
+        opacity: 0.6;
+
+        > img {
+            max-height: calc(var(---banner-height) * .8);
+        }
+        
+        h1 {
+            font-size: calc(var(---banner-height) * .7);
+        }
+    }
+
     > img {
         max-height: 100%;
     }
 
     h1 {
         font-family: 'Norse Bold';
+        color: white;
     }
 }
