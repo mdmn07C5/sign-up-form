@@ -4,6 +4,7 @@
 }
 
 body {
+    ---puke-green: #596D48;
     display: flex;
     font-family: system-ui, sans-serif;
     margin: 0;
@@ -120,6 +121,24 @@ main {
         .error.error {
             border-color: darkred;
         }
-        
     }
+
+    #footer {
+        #submit-button {
+            width: 12rem;
+            height: 2.5rem;
+            border-width: 0;
+            border-radius: 5px;
+            background-color: var(---puke-green);
+            color: white;
+            font-weight: bold;
+        }
+
+        a, a:visited {
+            color: var(---puke-green);
+            text-decoration: none;
+            font-weight: bolder;
+        }
+    }
+    
 }
