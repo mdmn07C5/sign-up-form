@@ -74,22 +74,31 @@ main {
     display: flex;
     flex-direction: column;
     background-color: #F9FAFB;
-    /* justify-content: center; */
+    justify-content: center;
+    /* align-items: center; */
     
     > * {
         padding-left: 50px;
         margin: 10px 0px;
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
     }
 
     > :nth-child(2) {
         background-color: white;
     }
 
+    #hero {
+        justify-content: end;
+    }
+
     #form {
-        display: flex;
-        flex-direction: column;
+        justify-content: center;
+        flex-shrink: 1;
         width: 100%;
-        box-shadow: 1px 1px 20px rgba(0, 0 ,0, 0.3);
+        /* box-shadow: 1px 1px 20px rgba(0, 0 ,0, 0.3); */
+        filter: drop-shadow(rgba(0, 0, 0, 0.3) 0 5px 5px);
         
         ul {
             display: flex;
@@ -133,10 +142,6 @@ main {
     }
 
     #footer {
-        display: flex;
-        flex-direction: column;
-        flex-grow: 1;
-
         #submit-button {
             width: 12rem;
             height: 2.5rem;
