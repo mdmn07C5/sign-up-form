@@ -2,6 +2,9 @@
     font-family: 'Norse Bold';
     src: url(./assets/Norse-Bold.otf);
 }
+html {
+    max-height: 1440px;
+}
 
 body {
     ---puke-green: #596D48;
@@ -70,9 +73,16 @@ body {
 main {
     display: flex;
     flex-direction: column;
+    background-color: #F9FAFB;
+    /* justify-content: center; */
+    
     > * {
         padding-left: 50px;
         margin: 10px 0px;
+    }
+
+    > :nth-child(2) {
+        background-color: white;
     }
 
     #form {
@@ -123,6 +133,10 @@ main {
     }
 
     #footer {
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+
         #submit-button {
             width: 12rem;
             height: 2.5rem;
