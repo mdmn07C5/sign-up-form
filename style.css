@@ -96,8 +96,6 @@ main {
     #form {
         justify-content: center;
         flex-shrink: 1;
-        width: 100%;
-        /* box-shadow: 1px 1px 20px rgba(0, 0 ,0, 0.3); */
         filter: drop-shadow(rgba(0, 0, 0, 0.3) 0 5px 5px);
         
         ul {
