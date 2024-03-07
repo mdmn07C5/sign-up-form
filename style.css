@@ -32,8 +32,7 @@ body {
         width: 100%;
         
         height: var(---banner-height);
-        background: black;
-        opacity: 0.6;
+        background: rgba(0, 0 ,0, 0.5);
 
         > img {
             max-height: calc(var(---banner-height) * .8);
